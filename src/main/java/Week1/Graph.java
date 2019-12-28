@@ -1,3 +1,5 @@
+package Week1;
+
 import org.jfree.chart.*;
 import org.jfree.chart.axis.*;
 import org.jfree.chart.plot.*;
@@ -29,7 +31,7 @@ public class Graph {
 
     public static Graph getInstance() {
         if (instance == null)
-            instance = new Graph("Graph");
+            instance = new Graph("Week1.Graph");
         return instance;
     }
 
